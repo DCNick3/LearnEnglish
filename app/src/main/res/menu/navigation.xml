@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_vocabulary"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="@string/title_vocabulary" />
+
+    <item
+        android:id="@+id/navigation_wordsets"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="@string/title_wordsets" />
+
+    <item
+        android:id="@+id/navigation_stats"
+        android:icon="@drawable/ic_multiline_chart_black_24dp"
+        android:title="@string/title_stats" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_settings" />
+
+</menu>

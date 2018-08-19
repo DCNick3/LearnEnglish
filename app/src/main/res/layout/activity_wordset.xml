@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/wordset_icon"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/wordset_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/wordset_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/wordset_browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/browse_words"
+        android:onClick="onBrowseButtonClick"/>
+    <Button
+        android:id="@+id/wordset_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_wordset"
+        android:onClick="onSelectButtonClick"/>
+    <Button
+        android:id="@+id/wordset_uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uninstall_wordset"
+        android:textColor="@color/destructive"
+        android:onClick="onUninstallButtonClick"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

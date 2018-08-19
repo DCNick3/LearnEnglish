@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:3:11-45
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:5:11-36
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+		INJECTED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:7:5-44
+	android:minSdkVersion
+		ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:7:15-41
+application
+ADDED from D:\Develops\AndroidStudioProjects\LearnEnglish\circlebutton\src\main\AndroidManifest.xml:8:5-20

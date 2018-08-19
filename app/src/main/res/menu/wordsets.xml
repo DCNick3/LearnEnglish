@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/install_wordsets" android:title="@string/install_wordsets" />
+    <item android:id="@+id/edit_active" android:title="@string/change_active_set" />
+</menu>

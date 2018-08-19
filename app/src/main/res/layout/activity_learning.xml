@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="20dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/wordset_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextMinor"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/word_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                />
+
+            <View
+                android:id="@+id/splitter"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#c0c0c0"
+                android:layout_below="@id/word_text"
+                android:layout_marginTop="40dp"/>
+
+            <at.markushi.ui.CircleButton
+                android:id="@+id/show_button"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_below="@id/splitter"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_visibility_dark_32dp"
+                app:cb_color="#F0F0F0"
+                app:cb_pressedRingWidth="8dip"
+                android:focusable="false"
+                />
+
+            <RelativeLayout
+                android:id="@+id/translation_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/splitter"
+                android:layout_above="@id/word_info"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="0dp">
+
+                <TextView
+                    android:id="@+id/word_translation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="36sp"
+                    android:textAlignment="center" />
+
+                <org.duckdns.dcnick3.learnenglish.layout.UntouchableMarkdownView
+                    android:id="@+id/word_sample"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/word_translation"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/colorTextMinor"
+                    android:textSize="18sp"
+                    android:clickable="false"
+                    android:focusable="false" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/word_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorTextMinor" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/dictionary_source_settings">
+
+        <CheckBoxPreference
+            android:key="update_dictionary"
+            android:title="@string/update_dictionary"
+            android:summary="@string/summary_update_dictionary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/learning">
+
+        <CheckBoxPreference
+            android:key="smart_picker"
+            android:title="@string/smart_picker"
+            android:summary="@string/summary_smart_picker" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
